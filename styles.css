@@ -1,0 +1,101 @@
+/* General styles for the body element */
+body {
+    font-family: Arial, sans-serif; /* Set the font for the page */
+    background-color: #f4f4f9; /* Light background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for the container element */
+.container {
+    width: 100%; /* Full width of the parent element */
+    max-width: 500px; /* Maximum width of the container */
+    background: #ffffff; /* White background for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a 3D effect */
+}
+
+/* Styles for the main title */
+h1 {
+    text-align: center; /* Center-align the title text */
+    color: #333; /* Dark color for the text */
+}
+
+/* Styles for the input group (input field and button) */
+.input-group {
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Space between input and button */
+    margin-bottom: 20px; /* Space below the input group */
+}
+
+/* Styles for the input field */
+#todoInput {
+    flex: 1; /* Allow the input to take up remaining space */
+    padding: 10px; /* Padding inside the input field */
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Styles for the "Add" button */
+#addButton {
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Styles for the "Add" button on hover */
+#addButton:hover {
+    background-color: #218838; /* Darker green background on hover */
+}
+
+/* Styles for the unordered list */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for each list item */
+li {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center-align items vertically */
+    justify-content: space-between; /* Space items between start and end */
+    padding: 10px; /* Padding inside each list item */
+    border-bottom: 1px solid #ddd; /* Light border at the bottom */
+}
+
+/* Styles for the checkbox input */
+.checkbox {
+    margin-right: 10px; /* Space between checkbox and text */
+}
+
+/* Styles for the delete button */
+.deleteButton {
+    background-color: #dc3545; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 5px 10px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Styles for the delete button on hover */
+.deleteButton:hover {
+    background-color: #c82333; /* Darker red background on hover */
+}
+
+/* Styles for completed tasks */
+.completed {
+    text-decoration: line-through; /* Strike-through text */
+    color: #999; /* Light gray color for completed tasks */
+}
+
+
